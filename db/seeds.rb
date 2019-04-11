@@ -15,7 +15,7 @@ User.destroy_all
   )
 
   5.times do
-    team.user.create(
+    team.users.create(
       name: Faker::Name.unique.name
     )
   end
