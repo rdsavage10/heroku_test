@@ -1,5 +1,5 @@
 class User < ApplicationRecord
 
   mount_uploader :avatar, AvatarUploader
-  belongs_to Team
+  belongs_to :team
 end
